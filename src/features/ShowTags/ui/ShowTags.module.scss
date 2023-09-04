@@ -1,0 +1,42 @@
+.ShowTags{
+    display: flex;
+    gap: 4px;
+
+    span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1px 6px 2px;
+        font-weight: 600;
+        font-size: 12px;
+
+    }
+}
+
+.entityTag{
+    border-radius: 4px;
+    color: white;
+    background-color: #B233A6;
+}
+
+.departmentTag{
+    position: relative;
+    border-radius: 4px;
+    color: #616C82;
+    background: #EBEEF6;
+
+    &::after{
+        content: "";
+        position: absolute;
+        right: -7px;
+        top: -1.4px;
+        border-top: 11px solid transparent;
+        border-bottom: 11px solid transparent;
+        border-left: 11px solid #EBEEF6;
+        border-radius: 10px;
+        width: 0;
+        height: 0;
+          
+    }
+}
+

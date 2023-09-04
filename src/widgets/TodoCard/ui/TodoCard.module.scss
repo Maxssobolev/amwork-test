@@ -1,0 +1,62 @@
+.TodoCardWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    padding: 4px;
+    background: #F4F8FF;
+}
+
+.TodoCard {
+    border-radius: 7px;
+    padding: 10px;
+    width: 100%;
+
+    // min-height: 138px;
+    box-shadow: 0 1px 2px 0 #D0DAEB, 0 0 2px 0 #EEF4FE;
+    background: white;
+}
+
+.titleWrapper{
+    display: -webkit-box;
+    overflow: hidden;
+    max-height: 3 * 1.2em;
+    line-height: 1.3em;
+    text-overflow: ellipsis;
+    color: var(--c-blue);
+    -webkit-box-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.title {
+    margin-left: 6px;
+    font-weight: 600;
+}
+
+
+.dates {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0 5px;
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--c-green);
+}
+
+.desc {
+    display: -webkit-box;
+    overflow: hidden;
+    max-height: 1 * 1.2em;
+    line-height: 1.3em;
+    text-overflow: ellipsis;
+    -webkit-box-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.footerWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}

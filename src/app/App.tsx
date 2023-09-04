@@ -1,9 +1,12 @@
-import './styles/index.css'
+import './styles/index.scss'
+import { MainPage } from 'pages/MainPage';
 
 function App() {
+  
+
   return (
     <div className="app">
-      
+      <MainPage />
     </div>
   );
 }

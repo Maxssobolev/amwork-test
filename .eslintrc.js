@@ -7,7 +7,7 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
-     "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended"
   ],
   overrides: [],
@@ -28,7 +28,7 @@ module.exports = {
     '@typescript-eslint/no-floating-promises': [1, {
       ignoreVoid: true
     }],
-    "@typescript-eslint/naming-convention": [1],
+    "@typescript-eslint/naming-convention": [0],
     "@typescript-eslint/no-unused-vars": [1]
   }
 };

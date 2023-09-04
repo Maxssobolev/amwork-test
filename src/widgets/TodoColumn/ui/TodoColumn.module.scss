@@ -1,0 +1,28 @@
+.TodoColumn{
+    
+}
+
+.columnHeader {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+}
+
+.columnControllers {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.columnName{
+    font-weight: 600;
+    color: var(--c-green);
+}
+
+.columnCardsWrapper{
+    display: grid;
+    grid-gap: 8px;
+    padding: 8px 0;
+}
