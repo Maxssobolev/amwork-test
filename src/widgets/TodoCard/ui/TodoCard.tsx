@@ -7,7 +7,7 @@ import {faker} from '@faker-js/faker'
 import { ShowTags } from 'features/ShowTags';
 import { getRandomFrom } from 'shared/lib/helpers/getRandomFrom';
 import { ShowAvatar } from 'features/ShowAvatar';
-
+import avatar from 'shared/assets/img/Img.png'
 interface TodoCardProps extends Todo{
     className?: string;
 }
@@ -37,7 +37,7 @@ export const TodoCard: FC<TodoCardProps> = ({className, title, completed, id, us
         </div>
         <div className={classes.footerWrapper}>
           <ShowTags tags={{entity, department}}/>
-          <ShowAvatar src='/img/img.png'/>
+          <ShowAvatar src={avatar}/>
         </div>
       </div>
     </div>
